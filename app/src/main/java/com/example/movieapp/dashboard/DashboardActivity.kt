@@ -114,7 +114,6 @@ class DashboardActivity : BaseActivity() {
         binding.rvPopular.adapter = popularMoviesAdapter
     }
 
-
     private fun setUpcomingMovieAdapter() {
         binding.rvUpcoming.layoutManager = GridLayoutManager(this, 3)
         val screenWidth = getScreenWidth(this)
